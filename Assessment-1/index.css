@@ -1,0 +1,124 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background: url("./assets/background.png") repeat-y;
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    align-items: center;
+    background-color: #000;
+    display: flex;
+    flex: auto;
+    flex-shrink: 0;
+    max-height: 10vmin;
+    text-align: center;
+}
+
+.header button {
+    background: linear-gradient(to bottom, darkgrey, #000);
+    border-radius: 5px;
+    border: 1px solid transparent;
+    color: #FFF;
+    flex: 1;
+    margin-left: 10px;
+    max-width: 13vmin;
+    padding: 5px;
+}
+
+.header h1 {
+    color: #FFFFFF;
+    flex: 3;
+}
+
+.header img {
+    flex: 1;
+    max-height: 10vmin;
+    max-width: 10vmin;
+}
+
+.contact {
+    flex: auto;
+    margin: 4vmin auto 0;
+    width: 90%;
+}
+
+.contact img {
+    border: solid #FFFFFF 3px;
+    width: 100%;
+}
+
+.contact h1 {
+    color: #FFFFFF;
+}
+
+.contact p {
+    color: #6986a0;
+}
+
+.contact a {
+    color: #FFFFFF;
+}
+
+.menu {
+    flex: auto;
+    margin: 4vmin auto 0;
+    width: 90%;
+}
+
+.menu ul {
+    list-style-type: none;
+    -webkit-padding-start: 0;
+}
+
+.menu li {
+    background-color: #d6dee5;
+    border-bottom: solid #cbcbcb;
+}
+
+.menu li:first-child {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.menu li:last-child {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.menu li a {
+    color: #000;
+    display: block;
+    font-size: 4vmin;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+    width: 95%;
+}
+
+.menu li a span {
+    float: right;
+    font-size: 4vmin;
+    font-weight: bold;
+}
+
+.footer {
+    align-items: center;
+    background-color: #000;
+    display: flex;
+    flex: auto;
+    flex-shrink: 0;
+    margin-top: 4vmin;
+    max-height: 5vmin;
+    text-align: center;
+}
+
+.footer h5 {
+    color: #FFFFFF;
+    flex: 1;
+}
